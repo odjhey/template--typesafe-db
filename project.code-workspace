@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "server"
+    }
+  ],
+  "settings": {
+    "sqltools.connections": [
+      {
+        "previewLimit": 50,
+        "driver": "SQLite",
+        "name": "sqlite1",
+        "database": "${workspaceFolder:server}/db/db.sqlite"
+      }
+    ]
+  }
+}
